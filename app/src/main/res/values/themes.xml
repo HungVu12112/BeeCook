@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BeeFood" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="l">
+            @color/white
+        </item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.BeeFood" parent="Base.Theme.BeeFood" />
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light">
+        <!-- Cấu hình các thuộc tính giao diện cho chế độ sáng -->
+        <item name="android:textColorPrimary">@color/text_color_light</item>
+    </style>
+
+    <!-- Chế độ tối -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Cấu hình các thuộc tính giao diện cho chế độ tối -->
+        <item name="android:textColorPrimary">@color/text_color_dark</item>
+    </style>
+
+</resources>

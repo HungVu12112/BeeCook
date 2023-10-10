@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1028526183791",
+    "project_id": "beecook-c37c4",
+    "storage_bucket": "beecook-c37c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028526183791:android:bae1322b5ce2637855049a",
+        "android_client_info": {
+          "package_name": "com.devvux.beecook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7escIKRsJxYNiccXEP3mKscKwee7gbdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
